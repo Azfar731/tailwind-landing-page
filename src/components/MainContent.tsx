@@ -19,7 +19,10 @@ export default function MainContent() {
         <div className="mt-8 py-1 border-b border-indigo-700">
           <h2 className="text-indigo-700 text-xl font-bold">Advantages</h2>
         </div>
-        <Card Icon={CssSVG} />
+        <Card Icon={CssSVG} title="No Custom CSS" body="Tailwind's advanced class extraction will leave your project
+      free of custom CSS." />
+        <Card Icon={CssSVG} title="" body="" />
+        <Card Icon={CssSVG} title="" body="" />
       </div>
     </div>
   );
