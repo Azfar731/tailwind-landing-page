@@ -5,7 +5,7 @@ export default function Header() {
     <>
       {" "}
       <header className="bg-indigo-700">
-        <div className="w-full px-4 pt-3 pb-5 border-b-4 border-pink-400">
+        <div className="w-full px-4 lg:px-16  pt-3 pb-5 border-b-4 border-pink-400">
           <div className="w-full  flex justify-between">
             <svg
               className="h-8 fill-pink-400"
@@ -36,7 +36,7 @@ export default function Header() {
           </button>
         </div>
       </header>
-      <div className="h-24 w-24 absolute right-4 -mt-12 bg-white rounded-full border-4 border-pink-400 flex items-center justify-center">
+      <div className="h-24 w-24 absolute right-4 lg:right-16 -mt-12 bg-white rounded-full border-4 border-pink-400 flex items-center justify-center">
         <img
           className="h-12 w-12  "
           src="images/tailwind-logo.png"
