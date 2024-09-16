@@ -1,5 +1,5 @@
 import Card from "./Card";
-import  CssSVG  from "../assets/svgs/css-icon.svg?react"
+import CssSVG from "../assets/svgs/css-icon.svg?react";
 export default function MainContent() {
   return (
     <div className="bg-gray-200 px-4 py-4">
@@ -16,10 +16,10 @@ export default function MainContent() {
         </p>
       </div>
       <div>
-      <div className="mt-8 py-1 border-b border-indigo-700">
+        <div className="mt-8 py-1 border-b border-indigo-700">
           <h2 className="text-indigo-700 text-xl font-bold">Advantages</h2>
-            <Card Icon={CssSVG}/>
         </div>
+        <Card Icon={CssSVG} />
       </div>
     </div>
   );
